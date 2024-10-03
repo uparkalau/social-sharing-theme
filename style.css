@@ -1,0 +1,45 @@
+/*
+Theme Name: SocialSharingTheme
+Theme URI: https://www.uparkalau.cloud/
+Author: Vlad
+Author URI: https://www.uparkalau.cloud/
+Description: A theme to demonstrate adding social sharing links after the post title.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: social-sharing-theme
+*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.social-sharing-links {
+    margin-top: 10px;
+}
+
+.social-sharing-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-sharing-links .btn {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.social-sharing-links .btn i {
+    font-size: 20px;
+}
+
+.social-sharing-links .btn:hover {
+    background-color: #0056b3;
+}
